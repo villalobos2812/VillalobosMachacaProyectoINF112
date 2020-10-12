@@ -1,0 +1,75 @@
+.button{
+	background: #7f8c8d;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 15px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px #373c3c;
+}
+/*colores*/
+.button.color{
+	background: #212121;
+	box-shadow: 0px 2px 0px #1A237E;
+}
+/*Tamaños del boton*/
+.button.medium{
+	width: 550px; 
+}
+.button1.corto{
+	width: 350px;
+}
+.button.corto{
+	width: 200px;
+}
+/*Efectos*/
+.button.radius{
+	border-radius: 50px;
+}
+.button1.radiusdatos{
+	border-radius: 1px;
+}
+.button:hover{
+	box-shadow: 0px 0px 0px;
+	
+}
+
+ /*ESTILOS DE IMAGENES*/
+.img.peques{
+	border: 4px solid grey;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 1000px;
+	overflow: hidden;
+	height: 110px;
+    width: 280px;
+    margin: 10px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.img.peques:hover{
+	height: 120px;
+    width: 300px;
+    margin-center: -40px;
+}
+img{
+    margin: 20px;
+    opacity: 0.8;
+    border: 10px solid #eee;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+ 
+img:hover {
+    opacity: 1;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
